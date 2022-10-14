@@ -1,0 +1,25 @@
+.titulo{
+    color:darkcyan;
+}
+
+.alumnos{
+    color:royalblue;
+}
+
+.ejercicio{
+    color:darkgoldenrod;
+}
+
+.tbalumnos{
+    border: 5px solid orange;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th,td{
+    border: 1px solid greenyellow
+}
+th{
+    font-weight: bold;
+}
