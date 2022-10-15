@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./src/flash.webp);
+    background-size: cover;
+    background-position: center;
+    color: aquamarine;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height: 100vh;
+    
+}
+.header-image{
+    border-radius: 100%;
+    width: 60%;
+}
+.article-title,.article-keywords,.article-presentation{
+    letter-spacing: 1.5px;
+    margin: 0;
+}
+
+.footer{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.footer-icon-container{
+    display: flex;
+    transition: all 0.5s;
+   max-width: 7rem;
+}
+ 
+.footer-icon-container:hover{
+transform: scale(1.05);
+}
+
+.footer-icon-link-icon{
+width: 100%;
+}
+.main{
+    background-color:hsla(222, 14%, 15%, 0.25);
+    border-radius: 5%;
+    
+}
