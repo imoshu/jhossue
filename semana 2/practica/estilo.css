@@ -15,6 +15,10 @@ body{
     border-radius: 100%;
     width: 60%;
 }
+
+.header-image:hover{
+ border:greenyellow solid 2px;
+}
 .article-title,.article-keywords,.article-presentation{
     letter-spacing: 1.5px;
     margin: 0;
